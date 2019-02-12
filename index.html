@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <!-- <div data-plugin-date>
+      <div data-plugin-year></div>
+      <div data-plugin-month></div>
+      <div data-plugin-day></div>
+      <div data-plugin-hours></div>
+      <div data-plugin-min></div>
+      <div data-plugin-sec></div>
+    </div> -->
+    <style>
+      .clock {
+        width: 300px;
+        height: 300px;
+        background: gray;
+      }
+      .clock .circle {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 50%;
+        border: 5px solid rgb(81, 165, 81);
+        box-sizing: border-box;
+      }
+      .clock .arrow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: red;
+        z-index: 1;
+        transform-origin:left;
+      }
+      .clock .tiks {
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        position: absolute;
+        background: #0002;
+        z-index: 0;
+      }
+    </style>
+    <div class="clock"></div>
+  </body>
+</html>
